@@ -72,5 +72,5 @@ func main() {
 	router.GET("/infos/:id", getinfo)
 	router.PATCH("/infos/:id", toogleinfoStatus)
 	router.POST("/infos", addinfo)
-	router.Run("localhost:9090")
+	router.Run("localhost:9000")
 }
